@@ -10,8 +10,8 @@ title: Ezra & Phineas
 email: parents@waisbrot.net
 description: > # this means to ignore newlines until "baseurl:"
   Things that my children have said or done
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/kidsay" # the subpath of your site, e.g. /blog
+url: "https://waisbrot.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username:  waisbrot
 
