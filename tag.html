@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="home">
+    <h1 class="page-heading">Tags</h1>
+    <ul class="tag-list" id="tag-list">
+    {% for tag in site.data.tags  %}
+        <li><a href="#{{tag.name}}" id="{{tag.name}}" class="tag-name">{{tag.name}}</a></li>
+    {% endfor %}
+    </ul>
+
+    <hr/>
+
+    {% for tag in site.data.tags  %}
+    <div class="tagged-posts tagged-{{tag.name}}">
+    <ul class="post-list-small">
+        {% for post in site.tags.[tag.name] %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <a class="post-link-small" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    </div>
+    {% endfor %}
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+
+<script>
+ var displayTag = function (tagName) {
+     return function () {
+         $(".tagged-posts").hide();
+         $(".tagged-"+tagName).show();
+         $(".tag-name").removeClass('selected');
+         $("#"+tagName).addClass('selected');
+     };
+ }
+ {% for tag in site.data.tags %}
+ $( "#{{tag.name}}" ).click(displayTag("{{tag.name}}"));
+ {% endfor %}
+ if (window.location.hash) {
+     displayTag(window.location.hash.substring(1))();
+ }
+</script>
