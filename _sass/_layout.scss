@@ -181,6 +181,13 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        > .post-link {
+            margin-bottom: -$spacing-unit * 0.25;
+        }
+        > .post-meta {
+            margin-bottom: $spacing-unit * 0.5;
+            margin-top: 0;
+        }
     }
 }
 
@@ -206,11 +213,12 @@
 }
 
 .tag-list {
+    display: inline-block;
+    margin-left: 10px;
     > li {
         display: inline;
         list-style-type: none;
         padding-right: 20px;
-        font-size: $large-font-size;
     }
 }
 .tag-name.selected {
@@ -264,4 +272,9 @@
             font-size: 18px;
         }
     }
+}
+
+.tags-navigator {
+    display: table-column;
+
 }

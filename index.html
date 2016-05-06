@@ -1,19 +1,27 @@
 ---
 layout: default
 ---
-
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
+  Show only: <ul class="tag-list" id="tag-list">
+      {% for tag in site.data.tags  %}
+      <li><a href="#{{tag.name}}" id="{{tag.name}}" class="tag-name">{{tag.name}}</a></li>
+      {% endfor %}
+  </ul>
+
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
+      <li class="post {% for tag in post.tags %}tagged-{{tag}} {% endfor %}">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          {{ post.content }}
+          <p class="tag-list">Tags:
+          {% for tag in post.tags %}
+          <a class="tag tag-{{tag}}"  href="#{{tag}}"> {{tag}} </a>
+          {% endfor %}
+          </p>
       </li>
     {% endfor %}
   </ul>
@@ -21,3 +29,21 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+
+<script>
+ var displayTag = function (tagName) {
+     return function () {
+         $(".post-list li").hide();
+         $(".tagged-"+tagName).show();
+         $(".tag-name").removeClass('selected');
+         $("#"+tagName).addClass('selected');
+     };
+ }
+ {% for tag in site.data.tags %}
+ $("#{{tag.name}}").click(displayTag("{{tag.name}}"));
+ $(".tag-{{tag.name}}").click(displayTag("{{tag.name}}"));
+ {% endfor %}
+ if (window.location.hash) {
+     displayTag(window.location.hash.substring(1))();
+ }
+</script>

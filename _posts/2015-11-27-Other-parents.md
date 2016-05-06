@@ -7,4 +7,4 @@ tags:
 - Ezra
 ---
 In a part of Amherst we've never been:
-<blockquote>I remember this place! My old parents used to live here with me!</blockquote>
+"I remember this place! My old parents used to live here with me!"

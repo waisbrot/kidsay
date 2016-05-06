@@ -7,4 +7,4 @@ tags:
 - Carrie
 - Ezra
 ---
-> Carrie, will you trip over the humidifier and fall down? It would make me <em></em><i>laugh</i> and I like to laugh.
+"Carrie, will you trip over the humidifier and fall down? It would make me <i>laugh</i> and I like to laugh."
