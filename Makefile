@@ -27,8 +27,8 @@ post: _posts
 	$(eval SHORT_DATE := $(shell date "+%Y-%m-%d"))
 	$(eval LONG_DATE := $(shell date "+%Y-%m-%d %T %z"))
 	$(eval FILE := _posts/${SHORT_DATE}-$(subst $(SPACE),-,$(RUN_ARGS)).md)
-	set -o noclobber && \
-	echo ---\\nlayout: post\\ntitle:  "${RUN_ARGS}"\\ndate:   ${LONG_DATE}\\ncategories:\\ntags:\\n---\\n > ${FILE}
+	set -o noclobber && echo ---\\nlayout: post\\ntitle:  "${RUN_ARGS}"\\ndate:   ${LONG_DATE}\\ncategories:\\ntags:\\n---\\n > ${FILE}
+	@echo ${FILE}
 
 
 _posts:
