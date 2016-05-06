@@ -5,7 +5,8 @@ layout: default
 
   <h1 class="page-heading">Posts</h1>
 
-  Show only: <ul class="tag-list" id="tag-list">
+  Show: <ul class="tag-list" id="tag-list">
+      <li><a href="#All" id="All" class="tag-name" >All</a></li>
       {% for tag in site.data.tags  %}
       <li><a href="#{{tag.name}}" id="{{tag.name}}" class="tag-name">{{tag.name}}</a></li>
       {% endfor %}
@@ -39,6 +40,11 @@ layout: default
          $("#"+tagName).addClass('selected');
      };
  }
+ $("#All").click(function () {
+     $(".post-list li").show();
+     $(".tag-name").removeClass('selected');
+     $("#All").addClass('selected');
+ });
  {% for tag in site.data.tags %}
  $("#{{tag.name}}").click(displayTag("{{tag.name}}"));
  $(".tag-{{tag.name}}").click(displayTag("{{tag.name}}"));
