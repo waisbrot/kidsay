@@ -6,7 +6,7 @@ JK := bundle exec jekyll
 EMPTY :=
 SPACE := $(EMPTY) $(EMPTY)
 
-# special handling for the "mkpost" target
+# special handling for the "post" target
 ifeq (post,$(firstword $(MAKECMDGOALS)))
   RUN_ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
   $(eval $(RUN_ARGS):;@:)
