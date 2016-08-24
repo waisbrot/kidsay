@@ -1,4 +1,4 @@
-.PHONY: init serve mkpost
+.PHONY: init serve post help
 
 JK := bundle exec jekyll
 
@@ -12,7 +12,11 @@ ifeq (post,$(firstword $(MAKECMDGOALS)))
   $(eval $(RUN_ARGS):;@:)
 endif
 
-
+help:
+	@echo 'init		initialize the repository'
+	@echo 'serve		build and serve the site locally'
+	@echo 'post <title>	make a new post and print the name of the created file'
+	@echo 'help		print this'
 
 init: _config.yml .git
 
