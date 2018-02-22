@@ -15,7 +15,7 @@ Are there buttons to control the blasters? Yes, but they all fire the wrong blas
 
 Maybe the wiring is bad. Could he figure out which button fires which blaster and regain control of the ship? Now the entire button panel has gone offline. None of the buttons work.
 
-Is there a level he could pull to re-activate the button panel? No, the first level we try is the one that permanently disables all the levers. We have lost all control of the ship.
+Is there a lever he could pull to re-activate the button panel? No, the first lever we try is the one that permanently disables all the levers. We have lost all control of the ship.
 
 Can we radio for help? No, the radio is also not working. Sparks are coming out.
 
