@@ -8,6 +8,6 @@ tags:
 - Phineas
 ---
 
-Ezra: "I have a tooth that's getting pretty loose!"</br>
-Phineas: "_My_ teeth are tightening up!"</br>
+Ezra: "I have a tooth that's getting pretty loose!"<br/>
+Phineas: "_My_ teeth are tightening up!"<br/>
 
