@@ -18,6 +18,6 @@ Vivian: "Well, there aren't any holes in the wall."<br/>
 Ezra: "Well they could come in through other openings. Like, they could jump in through a _window_."<br/>
 Vivian: "Or they might have been in the house _already_."<br/>
 Ezra: "Yeah! They could have come out of _grandpa's boot_ at night!"<br/>
-Vivian: "Yeah!"
+Vivian: "Yeah!"<br/>
 Ezra: "Or from out of your _nose_!"<br/>
 Vivian: (after squeezing her nose) "No. I can feel that there's nothing in my nose."
