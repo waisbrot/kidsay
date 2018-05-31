@@ -10,6 +10,6 @@ tags:
 ---
 
 Ezra: "We're having a show about dead dinosaurs."<br/>
-Phineas: "Yeah. Dead dinosaurs. Mamma, this a show about dead dinosaurs."</br>
+Phineas: "Yeah. Dead dinosaurs. Mamma, this a show about dead dinosaurs."<br/>
 Carrie: "Oh? You're having a show about dead dinosaurs?"<br/>
 Ezra: "Yeah. That's the _theme_."<br/>
