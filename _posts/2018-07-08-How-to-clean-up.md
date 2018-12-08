@@ -8,9 +8,9 @@ tags:
 - Ezra
 ---
 
-Carrie: "Please put your clothes in the laundry basket."</br>
-Ezra: "You _have_ a husband."</br>
-Carrie: "Yyyyeeeees? So?"</br>
-Ezra: "You could get your _huband_ to put them in the laundry basket."</br>
+Carrie: "Please put your clothes in the laundry basket."<br/>
+Ezra: "You _have_ a husband."<br/>
+Carrie: "Yyyyeeeees? So?"<br/>
+Ezra: "You could get your _huband_ to put them in the laundry basket."<br/>
 Carrie: "I _could_. Or I could get my children to do it. Please put your clothes away."
 
