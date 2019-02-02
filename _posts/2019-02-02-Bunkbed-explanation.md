@@ -11,5 +11,5 @@ tags:
 Phineas is video-chatting with Kaylyn while lying on his bed.
 
 Kaylyn: "What are those slats I see?"<br/>
-Phineas: "Oh, these wooden slats? These are my bunk bed." (In a grouchy-voice) "'No jumping on the bed! You're gonna break the wood slats!' Soooo, we can't jump on it."<br/>
+Phineas: "Oh, these wooden slats? These are my bunk bed." (In a grouchy-voice) "_'No jumping on the bed! You're gonna break the wood slats!'_ Soooo, we can't jump on it."<br/>
 
