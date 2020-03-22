@@ -8,9 +8,9 @@ tags:
 - Phineas
 ---
 
-Ezra: Do you want some _ice cream_?</br>
-Phineas: Yes</br>
-Ezra: OK, here's some _ice scream_!</br>
+Ezra: Do you want some _ice cream_?<br/>
+Phineas: Yes<br/>
+Ezra: OK, here's some _ice scream_!<br/>
 
 _Both kids simultainiously scream at the tops of their lungs_
 
