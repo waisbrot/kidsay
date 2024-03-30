@@ -8,7 +8,7 @@ tags:
 - Phineas
 ---
 
-_They are playing _Lego Indiana Jones_ and there's a level with a submarine_
+_They are playing_ Lego Indiana Jones _and there's a level with a submarine_
 
 Phineas: "That submarine looks _cool_."<br/>
 Ezra: "I believe that's because the submarine _is_ cool."<br/>
