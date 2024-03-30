@@ -19,5 +19,5 @@ Phineas: "Phhhhhhhhh! Nate, you're on fire!"<br/>
 Me: "Hm. That doesn't seem very nice."<br/>
 Phineas: "That's because... _WE'RE PIRATES!!!!_ Aaarrgh!"
 
-Then the both shouted "aargh" at me a lot.
+Then they both shouted "aargh" at me a lot.
 
