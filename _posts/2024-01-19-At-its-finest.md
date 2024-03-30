@@ -8,8 +8,10 @@ tags:
 - Phineas
 ---
 
-Ezra: "I'm squeeking this _cab_inet with _my butt!_"<br/>
+Ezra: "I'm squeeking this <i>cab</i>inet with _my butt!_"<br/>
 Phineas: "Aaaaaaaaaaahh!"<br/>
 Ezra: "America at its finest."<br/>
 Phineas: "God save me!"<br/>
+
+(I don't have any idea what either of them was talking about.)
 
