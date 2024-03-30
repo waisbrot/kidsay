@@ -9,7 +9,7 @@ tags:
 ---
 Ezra's hands are covered with ink. He wipes them on his shirt.
 
-Carrie: "Oh! Don't wipe your hands on your clothes!"
+Carrie: "Oh! Don't wipe your hands on your clothes!"<br/>
 Ezra: "I am wiping my hands on my legs."
 
 Ezra then wipes his hands on his bare legs.
