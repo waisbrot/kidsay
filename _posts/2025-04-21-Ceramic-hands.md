@@ -8,6 +8,6 @@ tags:
 - Sally
 ---
 
-Ezra is musing about how heating water in the microwave for tea is worse because the mug gets hot.
+Ezra is musing about how heating water in the microwave for tea is worse than a kettle because the mug gets hot.
 
-"But that doesn't matter for _grandma_ because she has _ceramic hands_."
+"But that doesn't matter for _Grandma_ because she has _ceramic hands_."
