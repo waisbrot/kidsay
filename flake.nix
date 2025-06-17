@@ -19,6 +19,7 @@
           packages = with pkgs; [
             bashInteractive
             gnumake
+            jinja2-cli
           ];
         };
       }
