@@ -31,7 +31,7 @@ post: _posts new-post.jinja
 	$(eval SHORT_DATE := $(shell date "+%Y-%m-%d"))
 	$(eval LONG_DATE := $(shell date "+%Y-%m-%d %T %z"))
 	$(eval FILE := _posts/${SHORT_DATE}-$(subst $(SPACE),-,$(RUN_ARGS)).md)
-	jinja2 --strict -Dtitle="${RUN_ARGS}" -Dlong_date="${LONG_DATE}" new-post.jinja --outfile="${FILE}"
+	jinja2 --strict -Dtitle="${RUN_ARGS}" -Dlong_date="${LONG_DATE}" .new-post.jinja --outfile="${FILE}"
 	@echo ${FILE}
 
 _posts:
