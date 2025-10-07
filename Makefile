@@ -23,7 +23,7 @@ init: _config.yml .git
 serve: index.html
 	$(JK) serve
 
-post: _posts new-post.jinja
+post: _posts .new-post.jinja
 	@if [ -z "$(RUN_ARGS)" ]; then \
 		echo "make post: must supply a title" >&2; \
 		exit 1; \
