@@ -7,10 +7,5 @@ tags:
 - Ezra
 ---
 
-(Self-reported)<br/>
-* Singing
-* Helping Carrie
-* Running
-* Listening
-* Being careful
+(Self-reported): Singing, Helping Carrie, Running, Listening, Being careful
 
