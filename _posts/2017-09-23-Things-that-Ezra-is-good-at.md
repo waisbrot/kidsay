@@ -6,10 +6,12 @@ categories:
 tags:
 - Ezra
 ---
+
 (Self-reported)
 
-- Singing
-- Helping Carrie
-- Running
-- Listening
-- Being careful
+* Singing
+* Helping Carrie
+* Running
+* Listening
+* Being careful
+
