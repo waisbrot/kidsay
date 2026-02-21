@@ -7,8 +7,7 @@ tags:
 - Ezra
 ---
 
-(Self-reported)
-
+(Self-reported)<br/>
 * Singing
 * Helping Carrie
 * Running
